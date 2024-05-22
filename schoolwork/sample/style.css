@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;}
+body{
+    font-family: Arial, 宋体, serif;
+    font-size: 12px;
+    background:url(images/3.jpg);
+    background-size: cover;
+}
+#nav{
+    line-height: 24px;
+    list-style-type: none;
+}
+
+#nav a {
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+
+#nav a:link {
+    color: #666;
+    text-decoration: none;
+}
+
+#nax a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+#nax a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav li {
+    float: left;
+    width: 80px;
+    background: #0f0;
+    color: red;
+}
+
+#nav li a:hover {
+    background: #999;
+}
+
+#nav li ul {
+    line-height: 27px;
+    list-style-type: none;
+    text-align: left;
+    left: -999px;
+    width: 180px;
+    position: absolute;
+}
+
+#nav li ul li {
+    width: 180px;
+    background: #f6f6f6;
+}
+
+#nav li ul a {
+    display: block;
+    width: 156px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+#nav li ul a:link {
+    color: #666;
+    text-decoration: none;
+}
+
+#nav li ul a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+#nav li ul a:hover {
+    color: #f3f3f3;
+    text-decoration: none;
+    font-weight: normal;
+    background: #c00;
+    position: relative;
+    top: 3px;
+    left: 3px;
+}
+
+#nav li:hover ul {
+    left: auto;
+}
